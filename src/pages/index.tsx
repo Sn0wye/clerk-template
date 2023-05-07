@@ -6,6 +6,7 @@ import { api } from "../utils/api";
 
 const Home: NextPage = () => {
   const hello = api.example.hello.useQuery({ text: "from tRPC" });
+  const secret = api.example.getSecretMessage.useQuery();
 
   return (
     <>
@@ -41,6 +42,7 @@ const Home: NextPage = () => {
                 Learn more about Create T3 App, the libraries it uses, and how
                 to deploy it.
               </div>
+              <div className="text-lg">{secret.data?.message}</div>
             </Link>
           </div>
           <p className="text-2xl text-white">
