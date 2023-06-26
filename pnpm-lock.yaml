@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@clerk/nextjs':
     specifier: ^4.16.2
@@ -32,8 +36,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   superjson:
-    specifier: 1.12.2
-    version: 1.12.2
+    specifier: 1.12.4
+    version: 1.12.4
   zod:
     specifier: ^3.20.2
     version: 3.20.2
@@ -3122,8 +3126,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /superjson@1.12.2:
-    resolution: {integrity: sha512-ugvUo9/WmvWOjstornQhsN/sR9mnGtWGYeTxFuqLb4AiT4QdUavjGFRALCPKWWnAiUJ4HTpytj5e0t5HoMRkXg==}
+  /superjson@1.12.4:
+    resolution: {integrity: sha512-vkpPQAxdCg9SLfPv5GPC5fnGrui/WryktoN9O5+Zif/14QIMjw+RITf/5LbBh+9QpBFb3KNvJth+puz2H8o6GQ==}
     engines: {node: '>=10'}
     dependencies:
       copy-anything: 3.0.4
